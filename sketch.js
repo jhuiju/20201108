@@ -94,7 +94,7 @@ function Ball() {
 
   this.show = function() {
     ellipse(this.xpos, this.ypos, this.diameter)
-    fill(random(0, 255), random(0, 255), random(0, 255));
+    fill(255);
   }
 
 }
