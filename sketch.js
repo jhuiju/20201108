@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
   ball.update();
   ball.show();
 
@@ -94,7 +94,7 @@ function Ball() {
 
   this.show = function() {
     ellipse(this.xpos, this.ypos, this.diameter)
-    fill(255);
+    fill(random(0, 255), random(0, 255), random(0, 255));
   }
 
 }
