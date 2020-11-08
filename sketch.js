@@ -23,7 +23,7 @@ function draw() {
 
 function Ball() {
 
-  this.diameter = 70; //공 지름
+  this.diameter = 80; //공 지름
   this.v_speed = 0;
   this.gravity = 0.2; //아래로 끄는 힘
   this.xpos = width/2; //공의 x 시작위치
