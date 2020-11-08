@@ -9,7 +9,7 @@
 //수정확인중...
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(600, 600);
   ball = new Ball();
 
 }
@@ -23,7 +23,7 @@ function draw() {
 
 function Ball() {
 
-  this.diameter = 90; //공 지름
+  this.diameter = 70; //공 지름
   this.v_speed = 0;
   this.gravity = 0.2; //아래로 끄는 힘
   this.xpos = width/2; //공의 x 시작위치
