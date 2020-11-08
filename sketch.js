@@ -9,7 +9,7 @@
 //수정확인중...
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(800, 800);
   ball = new Ball();
 
 }
